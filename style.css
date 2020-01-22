@@ -1,0 +1,33 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	background-color: #ff6700;
+}
+.container{
+	text-align: center;
+	color: #fff;
+}
+#showHex{
+	font-size: 2rem;
+	font-weight: 500;
+}
+button{
+	background: #f93822ff;
+	box-shadow: 2px 3px 0.1px black;
+	color: #fff;
+	padding: 1rem;
+	margin: 1rem;
+	border: 1px solid #f93822ff;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+button:hover{
+	background: #000;
+	box-shadow: 1px 0.5px 1px #343434;
+	border: none;
+}
